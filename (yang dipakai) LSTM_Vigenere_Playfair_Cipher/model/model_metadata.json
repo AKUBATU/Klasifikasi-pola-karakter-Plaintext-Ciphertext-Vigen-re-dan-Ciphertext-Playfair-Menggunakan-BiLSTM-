@@ -1,0 +1,12 @@
+{
+    "max_len": 124,
+    "label_names": {
+        "0": "Plaintext / Teks Biasa",
+        "1": "Ciphertext Vigenere",
+        "2": "Ciphertext Playfair"
+    },
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "encoding": "A=1 sampai Z=26",
+    "padding": "post",
+    "model_file": "lstm_cipher_model.keras"
+}

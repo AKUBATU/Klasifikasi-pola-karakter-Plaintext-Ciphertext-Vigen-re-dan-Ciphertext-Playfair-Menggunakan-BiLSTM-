@@ -1,0 +1,53 @@
+{
+    "accuracy": 0.99,
+    "classification_report": {
+        "Plaintext": {
+            "precision": 0.998003992015968,
+            "recall": 1.0,
+            "f1-score": 0.999000999000999,
+            "support": 500.0
+        },
+        "Vigenere": {
+            "precision": 0.997946611909651,
+            "recall": 0.972,
+            "f1-score": 0.9848024316109423,
+            "support": 500.0
+        },
+        "Playfair": {
+            "precision": 0.974609375,
+            "recall": 0.998,
+            "f1-score": 0.9861660079051383,
+            "support": 500.0
+        },
+        "accuracy": 0.99,
+        "macro avg": {
+            "precision": 0.990186659641873,
+            "recall": 0.9899999999999999,
+            "f1-score": 0.9899898128390264,
+            "support": 1500.0
+        },
+        "weighted avg": {
+            "precision": 0.990186659641873,
+            "recall": 0.99,
+            "f1-score": 0.9899898128390265,
+            "support": 1500.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            500,
+            0,
+            0
+        ],
+        [
+            1,
+            486,
+            13
+        ],
+        [
+            0,
+            1,
+            499
+        ]
+    ]
+}
